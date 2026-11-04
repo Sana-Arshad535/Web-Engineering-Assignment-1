@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ChowChowCrochet</title>
+    <!--file linking-->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <!--navigation area-->
+
+        <nav>
+            <h1 id="title" class="t">chowchowcrochet</h1>
+            
+            <button class="toggle" class="t" >Toggle Light</button>
+            <div class="nav-links" class="h">
+                <a href="#main" class="t">About</a>
+                <a href="#table" class="t">products</a>
+                <a href="#form" class="t">Contact us</a>
+            </div>
+        </nav>
+    </header>
+    <!--main section-->
+    <h1 id="heading" class="h">Welcome to ChowChowCrochet</h1><br>
+    <h4 id="status">We are open!</h4>
+    <main id="main">
+        <article>
+            <p class="tg">Chow Chow Crochet is a small handmade crochet studio that specializes in creating soft,
+                fluffy, and irresistibly cute crochet hair clips. Inspired by the cozy and cuddly nature of the Chow
+                Chow, every piece is carefully crafted stitch by stitch using quality yarn and a whole lot of love. Our
+                clips are designed to add a playful, handmade touch to your everyday style — whether you’re keeping it
+                simple or dressing up for something special.<br><br>We believe that handmade accessories are more than just
+                fashion pieces. Each item takes time, patience, and creativity to make, which gives it a special charm
+                that mass-produced accessories often do not have. Our crochet products are made in small batches so that
+                we can pay attention to every little detail and maintain good quality.<br><br>
+                <span id="more" style="display: none;">From colorful flower clips to soft hair bands and other cute accessories, our
+                    designs are made for people who love simple, cozy, and unique styles. We enjoy experimenting with
+                    different colors, patterns, and designs to create accessories that are both fun and easy to wear.
+                    Each clip is unique, small-batch, and made to bring a little warmth and joy to your look.<br><br>
+
+                    We also love creating new designs based on different seasons, trends, and customer preferences.
+                    Whether you are looking for something cute for yourself or a small handmade gift for someone
+                    special, Chow Chow Crochet aims to make every piece feel personal and meaningful.<br>
+
+                    Follow along for new designs, and DM us to order your new favorite accessory. 🧶✨</span>
+                    <button
+                    id="readMore">Read more</button>
+                </p>
+
+        </article>
+        <!--image-->
+        <img src="Free.png">
+    </main>
+    <!--content cards-->
+    <section id="products">
+        <h2 class="h">Our Popular Products</h2><br>
+        <div class="pd-container">
+            <article class="card">
+                <img src="1.jpg" alt="image1">
+                <h3 class="t">Flower Hair Clip</h3>
+                <p> A cute handmade crochet flower clip to add a playful touch to your hairstyle. </p>
+                <p class="price">Rs. 450</p> <a href="#order" class="t">Order Now</a>
+            </article>
+            <article class="card"> <img src="2.jpg" alt="Crochet handmade bag">
+                <h3 class="t">Crochet Tote Bag</h3>
+                <p> A stylish handmade crochet tote bag that is perfect for everyday use. </p>
+                <p class="price">Rs. 1,800</p> <a href="#order" class="t">Order Now</a>
+            </article>
+            <article class="card"> <img src="3.jpg" alt="Crochet hair accessory">
+                <h3 class="t">Crochet Hair Band</h3>
+                <p> A soft and comfortable handmade hair accessory for a simple and cute look. </p>
+                <p class="price">Rs. 600</p> <a href="#order" class="t">Order Now</a>
+            </article>
+        </div>
+
+    </section>
+    <!--list-->
+    <section class="list-section">
+        <h2 class="h">Why Choose Handmade Crochet?</h2>
+        <ol type="A" class="tg">
+            <li>Beautiful and unique handmade designs</li>
+            <li>Soft and comfortable materials</li>
+            <li>Small-batch products made with care</li>
+        </ol>
+    </section>
+    <!--Table-->
+    <section id="table">
+        <h1 class="h">What we Sell</h1>
+        <div class="categories">
+            <button id="all">All</button>
+            <button id="bags">Bags</button>
+            <button id="hair">Hair Accessories</button>
+            <button id="cloths">Clothing</button>
+        </div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th class="h">Category</th>
+                    <th class="h">Product</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bags">
+                    <td rowspan="4">Bags</td>
+                </tr>
+                <tr class="bags">
+                    <td>Tote Bag</td>
+                </tr>
+                <tr class="bags">
+                    <td>BackPack</td>
+                </tr>
+                <tr class="bags">
+                    <td>Wallets</td>
+                </tr>
+                <tr class="hair">
+                    <td rowspan="4">Hair Accessories</td>
+                </tr>
+                <tr class="hair">
+                    <td>Hair Clips</td>
+                </tr>
+                <tr class="hair">
+                    <td>Hair Bands</td>
+                </tr>
+                <tr class="hair">
+                    <td>Hair Ties</td>
+                </tr>
+                <tr class="cloths">
+                    <td rowspan="5">Clothing</td>
+                </tr>
+                <tr class="cloths">
+                    <td>Cardigan</td>
+                </tr>
+                <tr class="cloths">
+                    <td>Tops</td>
+                </tr>
+                <tr class="cloths">
+                    <td>Hoodies</td>
+                </tr>
+                <tr class="cloths">
+                    <td>Sweaters</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!--form-->
+    <section id="form">
+        <form>
+            <h1 class="t">Place your order</h1><br>
+            <label for="name" >Name</label>
+            <input type="text" id="name"><br><br>
+            <label for="email" >Email</label>
+            <input type="email" id="email"><br><br>
+            <label for="birth-year">Birth Year</label>
+            <input type="text" id="birth-year"><br><br>
+            <p id="discount"></p><br>
+            <h3 class="t">How can we help you?</h3>
+            <label>
+                <input type="radio" name="topic" value="order"> Place an Order
+            </label><br>
+            <label>
+                <input type="radio" name="topic" value="question"> Ask a Question
+            </label><br>
+            <label>
+                <input type="radio" name="topic" value="custom"> Custom Design Request
+            </label><br><br>
+            
+            <h3 class="t" >Select items</h3>
+
+<label>
+    <input type="checkbox" class="item" value="1800"> Tote Bag - Rs. 1800
+</label><br>
+
+<label>
+    <input type="checkbox" class="item" value="2200"> BackPack - Rs. 2200
+</label><br>
+
+<label>
+    <input type="checkbox" class="item" value="800"> Wallets - Rs. 800
+</label><br>
+
+<label>
+    <input type="checkbox" class="item" value="450"> Hair Clips - Rs. 450
+</label><br>
+
+<label>
+    <input type="checkbox" class="item" value="600"> Hair Bands - Rs. 600
+</label><br>
+
+<label>
+    <input type="checkbox" class="item" value="350"> Hair Ties - Rs. 350
+</label><br>
+
+<label>
+    <input type="checkbox" class="item" value="3500"> Cardigan - Rs. 3500
+</label><br>
+
+<label>
+    <input type="checkbox" class="item" value="2000"> Tops - Rs. 2000
+</label><br>
+
+<label>
+    <input type="checkbox" class="item" value="3000"> Hoodies - Rs. 3000
+</label><br>
+
+<label>
+    <input type="checkbox" class="item" value="3000"> Sweaters - Rs. 3000
+</label><br><br>
+
+<!--<label id="total">Total</label>
+<input type="text"><br><br>-->
+<p><span id="total" class="t" style="color: darkorchid; font-weight: bold;">Total: Rs 0 </span></p><br>
+
+            <label for="special-notes" style="color:darkorchid; font-weight: bold;" class="t">Special-notes</label>
+            <textarea name="msg" id="special-notes" maxlength="100"></textarea><br><br>
+<p id="charCount">Remaining Characters: 0</p>
+            <button type="submit" class="tg">Submit</button>
+        <p id="Msg"></p>
+        </form>
+    </section>
+
+    <!--links-->
+    <footer>
+        <h3 class="t">ChowChowCrochet</h3>
+        <p>Handmade with love </p>
+        <a href="" class="t">Instagram Page</a>
+        <a href="https://youtube.com/@chowchowcrochet?si=sHTyCXrZaogmr3xg" target="_blank" class="t">Youtube</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
